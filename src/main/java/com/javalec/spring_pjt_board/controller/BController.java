@@ -102,6 +102,7 @@ public class BController {
 	}
 	
 	// 삭제하기
+	@RequestMapping("/delete")
 	public String delete(HttpServletRequest request, Model model){
 		System.out.println("delete()");
 		
